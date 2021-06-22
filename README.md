@@ -20,7 +20,7 @@ You can use the following types: `encrypt` or `decrypt`. If you use anything els
 
 ## Password function
 This function can encrypt your raw password, or verify that the raw input password is correct or not. It uses Argon2ID, one of the most secure hashing method in the world. There are 3 arguments, that this function needs: `['memory_cost' => 2048, 'time_cost' => 4, 'threads' => 3]`.
-There are the most efficient values, but if you'd like to secure it more, you can raise this numbers, but if will cost more time, to process!
+These are the most efficient values, but if you'd like to secure it more, you can raise this numbers, but if will cost more time, to process!
 
 To use it you need to import the file, fot that use the following: `require './PATH/TO/authenticate.php';`
 
