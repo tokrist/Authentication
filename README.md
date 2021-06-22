@@ -6,6 +6,5 @@ You can use it to encrypt and decryt your data, that you need to decrypt somewhe
 
 First, open the `authenticate.php` file and change the $key variable. It can be a word or just randomly generated characters, but it needs to be exact 16 characters.
 ```
-$encrypt_method = 'AES-256-CBC';
 $key = 'SECRET_KEY_HERE'; // needs to be 16 characters
 ```
