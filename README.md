@@ -13,6 +13,7 @@ $key = 'SECRET_KEY_HERE'; // needs to be 16 characters
 Then you need to import the file to use the function, use the following: `require './PATH/TO/authenticate.php';`
 
 After you changed the key and imported the file, you can easily use the function: `encrypt('TYPE', $sting);`
+
 You can use the following types: `encrypt` or `decrypt`. If you use anything else, the function will return with the following: `Undefined authentication method!`
 
 ---
