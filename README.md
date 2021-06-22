@@ -8,3 +8,4 @@ First, open the `authenticate.php` file and change the $key variable. It can be 
 ```
 $key = 'SECRET_KEY_HERE'; // needs to be 16 characters
 ```
+Then you need to import the file to use the function, use the following: `require './PATH/TO/authenticate.php';`
