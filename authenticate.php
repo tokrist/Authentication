@@ -28,7 +28,7 @@
         
         if($action == 'encrypt') {
             $output = password_hash($string, PASSWORD_ARGON2ID, ['memory_cost' => 2048, 'time_cost' => 4, 'threads' => 3]);
-        } else if($action == 'decrypt') {
+        } else if($action == 'verify') {
             $output = password_verify($string, $password); // $sting is the input (plain text), $password is the hash that you queryed or stored
         } else {
             $output = 'Undefined authentication method!';
