@@ -8,6 +8,6 @@ First, open the `authenticate.php` file and change the $key variable. It can be 
 ```
 $output = "";
 $encrypt_method = "AES-256-CBC";
-$key = "**SECRET_KEY_HERE**"; // needs to be 16 characters
+$key = "SECRET_KEY_HERE"; // needs to be 16 characters
 $iv = substr(hash('sha256', $key), 0, 16);
 ```
