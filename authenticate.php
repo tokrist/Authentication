@@ -1,3 +1,9 @@
+/*
+ *                   Created by:
+ *                     tokrist
+ *
+ *      You can remove the credit lines freely.
+ */
 <?php
     function authenticate($action, $string) {
         $output = '';
