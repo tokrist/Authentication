@@ -1,4 +1,4 @@
-# Authenticatetion
+# Authentication
 PHP Authentication function, that can use to store your password or other personal data (including links, names, and anything that you need to decrypt and use somewhere in your code).
 
 ---
