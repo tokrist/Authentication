@@ -1,3 +1,4 @@
+  
 /*
  *                   Created by:
  *                     tokrist
@@ -11,6 +12,10 @@
         $key = 'SECRET_KEY_HERE'; // needs to be 16 characters
         $iv = substr(hash('sha256', $key), 0, 16);
         
+        if (strlen($key) != 16) {
+          $output = "Invalid key length!";
+        } 
+
         if($action == 'encrypt') {
             $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
             $output = base64_encode($output);
