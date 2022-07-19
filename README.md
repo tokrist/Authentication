@@ -28,4 +28,4 @@ After that you can easily use the function: `password('TYPE', $sting);`
 
 The types are: `encrypt` and `verify`. If you use anything else, the function will return with the following: `Undefined authentication method!`
 
-For `verify`, you need to set up a `$password` variable, witch cotains the hashed password. You can query it from a database, or it can be stored in a file.
+For `verify`, you need to set up a `$password` variable, which cotains the hashed password. You can query it from a database, or it can be stored in a file.
